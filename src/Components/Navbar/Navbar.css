@@ -1,48 +1,53 @@
-.Navbar-Container{
-    background-color: rgba(107, 60, 201, 1);
-    height: 55px;
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.NavbarLogo{
-    margin-left: 6%;
-    max-height: 70%;
-    max-width: 10%;
-}
-
-.NavMenu{
-    align-items: end;
-    align-self: baseline;
-    justify-content: end;
-    width: auto;
-    margin-right: 4%;
-}
-
-.NavMenu ul{
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    gap: 2%;
-}
-
-.NavMenu li{
-    color: white;
-  cursor: pointer;
+.Navbar-Container {
+  background-color: rgba(107, 60, 201, 1);
+  min-height: 55px;
   display: flex;
-    width: 7rem;
+  /* flex-direction: row; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.d-flex{
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    gap: 2%;
+.NavbarLogo {
+  /* margin-left: 6%; */
+  max-height: 70%;
+  max-width: 10%;
+}
+
+.NavMenu {
+  align-items: end;
+  align-self: baseline;
+  justify-content: end;
+  width: auto;
+  flex: 1;
+  text-align: right;
+}
+
+.NavMenu ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  flex-direction: row;
+  align-self: center;
+}
+
+.NavMenu li {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  width: 7rem;
+  font-size: medium;
+}
+
+.d-flex {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 2%;
 }

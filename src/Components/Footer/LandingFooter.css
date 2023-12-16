@@ -1,0 +1,31 @@
+.Footer-Container{
+    background-color: rgba(107, 60, 201, 1);
+    height: 324px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterLeftSection{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 70%;
+}
+
+.FooterLogo{
+    height: 18%;
+    margin-right: 50%;
+}
+
+.FooterLeftText{
+    color: white;
+    text-align: left;
+}
+
+.FooterRightSection{
+    display: flex;
+}
+
+.FooterRightFirstSection{
+    color: white;
+}
