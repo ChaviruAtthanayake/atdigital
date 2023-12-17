@@ -84,14 +84,13 @@
     display: none;
   }
 
+  .navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 35px;
+  }
 
-.navbar-nav .nav-link {
-  color: white !important; 
-  margin-right: 35px; 
-}
-
-.navbar-nav .nav-link {
-  font-size: 14px;
-  font-weight: 500;
-}
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }

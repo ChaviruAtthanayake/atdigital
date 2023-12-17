@@ -1,204 +1,203 @@
-.HeroImage{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
+.HeroImage {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.HeroTextBox{
-    height: 306px;
-    background-image: linear-gradient(to left, rgba(28, 189, 221, 1), rgba(77, 202, 121, 1));
-    color: black;
-    width: 630px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 29%;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;
+.HeroTextBox {
+  height: 306px;
+  background-image: linear-gradient(
+    to left,
+    rgba(28, 189, 221, 1),
+    rgba(77, 202, 121, 1)
+  );
+  color: black;
+  width: 630px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 29%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1200px) {
-    .HeroTextBox {
-      height: 290px; 
-      margin-top: 328px;
-      /* margin-left: auto; */
-    }
-
-    .HeroButton{
-        margin-top: 10px;
-    }
-
-    .MiddleSection{
-        margin-top: 100px;
-    }
-
-    .LandingFrameButton{
-        width: 24%;
-    }
+  .HeroTextBox {
+    height: 290px;
+    margin-top: 328px;
   }
+
+  .HeroButton {
+    margin-top: 10px;
+  }
+
+  .MiddleSection {
+    margin-top: 100px;
+  }
+
+  .LandingFrameButton {
+    width: 24%;
+  }
+}
 
 @media screen and (max-width: 768px) {
-    .HeroTextBox {
-      width: auto;
-      height: 250px; 
-      margin-top: 428px;
-      margin-left: auto;
-    }
-
-    .HeroTextBox .HeroButton{
-        margin-left: -130px;
-    }
-
-    .MiddleSection{
-        margin-top: 360px;
-    }
-
-    .TextOverlay{
-        font-size: 5px;
-    }
-
-    .LandingFrameButton{
-        width: 28%;
-    }
+  .HeroTextBox {
+    width: auto;
+    height: 250px;
+    margin-top: 428px;
+    margin-left: auto;
   }
 
-  @media screen and (max-width: 376px) {
-    .HeroTextBox {
-      width: 100%;
-      height: 310px; 
-      margin-top: 245px;
-      margin-left: auto;
-    }
-    .HeroTextBox .TextOverlay{
-        font-size: 38px;
-        line-height: 44px;
-      margin-left: 18px;
-      margin-right: 10px;
-
-    }
-    .HeroTextBox .HeroButton{
-        margin-left: 18px;
-        margin-top: 15px;
-    }
-
-    .MiddleSection .FirstFrame{
-        margin-top: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .MiddleSection .FirstFrameText{
-        align-items: center;
-        text-align: center;
-    }
-
-    .MiddleSection .SecondFrame{
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .MiddleSection .SecondFrameText{
-        align-items: center;
-        text-align: center;
-    }
+  .HeroTextBox .HeroButton {
+    margin-left: -130px;
   }
 
-.TextOverlay{
-    color: white;
-    font-size: 48px;    
-    /* margin: 10px 10px 20px 10px; */
+  .MiddleSection {
+    margin-top: 360px;
+  }
+
+  .TextOverlay {
+    font-size: 5px;
+  }
+
+  .LandingFrameButton {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .HeroTextBox {
+    width: 100%;
+    height: 310px;
+    margin-top: 245px;
+    margin-left: auto;
+  }
+  .HeroTextBox .TextOverlay {
+    font-size: 38px;
+    line-height: 44px;
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+  .HeroTextBox .HeroButton {
+    margin-left: 18px;
     margin-top: 15px;
-    margin-left: 35px;
-    text-align: left;
-    font-weight: 650;
-    height: 230px;
-    line-height: 52px;
-}
+  }
 
-.HeroButton{
-    justify-content: left;
-    margin-right: 335px;
-    margin-bottom: 30px;
-}
-
-.FirstFrame{
-    display: flex;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.FirstFrameImage{
-    flex-basis: 45%;
-}
-
-.FirstFrameText{
-    flex-basis: 45%;
+  .MiddleSection .FirstFrame {
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
-    text-align: left;
-}
+    align-items: center;
+  }
+  .MiddleSection .FirstFrameText {
+    align-items: center;
+    text-align: center;
+  }
 
-.FirstFrameHeadingText{
-    color: rgba(107, 60, 201, 1);
-    font-weight: 700;
-    font-size: 19px;
-    margin-top: 10px;
-    margin-bottom: 2%;
-}
-
-.FirstFrameSubText{
-    margin-right: 8%;
-}
-
-.FirstFrameText .LandingFrameButton{
-    margin-top: 3%;
-    background-color: rgba(242, 141, 53, 1);
-    border: none;
-    width: 110px;
-    height: 30px;
-    color: white;
-    border-radius: 3px;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.SecondFrameText .LandingFrameButton{
-    margin-top: 3%;
-    background-color: rgba(242, 141, 53, 1);
-    border: none;
-    width: 110px;
-    height: 30px;
-    color: white;
-    border-radius: 3px;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.SecondFrame{
-    display: flex;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 6%;
-}
-
-.SecondFrameText{
-    flex-basis: 50%;
+  .MiddleSection .SecondFrame {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 5%;
+    align-items: center;
+  }
+  .MiddleSection .SecondFrameText {
+    align-items: center;
+    text-align: center;
+  }
 }
 
-.SecondFrameImage{
-    flex-basis: 45%;
-    height: 50%;
-    
+.TextOverlay {
+  color: white;
+  font-size: 48px;
+  margin-top: 15px;
+  margin-left: 35px;
+  text-align: left;
+  font-weight: 650;
+  height: 230px;
+  line-height: 52px;
 }
 
+.HeroButton {
+  justify-content: left;
+  margin-right: 335px;
+  margin-bottom: 30px;
+}
+
+.FirstFrame {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.FirstFrameImage {
+  flex-basis: 45%;
+}
+
+.FirstFrameText {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.FirstFrameHeadingText {
+  color: rgba(107, 60, 201, 1);
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+
+.FirstFrameSubText {
+  margin-right: 8%;
+}
+
+.FirstFrameText .LandingFrameButton {
+  margin-top: 3%;
+  background-color: rgba(242, 141, 53, 1);
+  border: none;
+  width: 110px;
+  height: 30px;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.SecondFrameText .LandingFrameButton {
+  margin-top: 3%;
+  background-color: rgba(242, 141, 53, 1);
+  border: none;
+  width: 110px;
+  height: 30px;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.SecondFrame {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6%;
+}
+
+.SecondFrameText {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.SecondFrameImage {
+  flex-basis: 45%;
+  height: 50%;
+}
